@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Bitter.Dal.Interfaces/1.0.0": {
+        "dependencies": {
+          "Bitter.Shared": "1.0.0"
+        },
+        "runtime": {
+          "Bitter.Dal.Interfaces.dll": {}
+        }
+      },
+      "Bitter.Shared/1.0.0": {
+        "runtime": {
+          "Bitter.Shared.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Bitter.Dal.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Bitter.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

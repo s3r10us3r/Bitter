@@ -1,0 +1,61 @@
+@page "/register"
+@using Bitter.Blazor.Helpers
+@using Bitter.Shared.Dtos
+<h1>Bitter</h1>
+
+<EditForm EditContext="_editContext">
+    <div>
+        <label for="username">Username:</label>
+        <InputText id="username" @bind-Value="Model.Username"/>
+        <div class="error-message" id="usernameError">@_usernameError</div>
+    </div>
+    <div>
+        <label for="password">Password:</label>
+        <InputText type="password" id="password" @bind-Value="Model.Password"/>
+        <div class="error-message" id="passwordError">@_passwordError</div>
+    </div>
+    <div>
+        <label for="repeatPassword">Repeat password:</label>
+        <InputText type="password" id="repeatPassword" @bind-Value="_repeatPassword"/>
+        <div class="error-message" id="repeatPasswordError">@_repeatPasswordError</div>
+    </div>
+    <button type="submit">Register</button>
+</EditForm>
+
+@code {
+    private EditContext _editContext = null!;
+    private LoginDto Model { get; set; } = null!;
+
+    private string _repeatPassword = "";
+    private string _usernameError = "";
+    private string _passwordError = "";
+    private string _repeatPasswordError = "";
+    
+    [Inject]
+    public UsernameValidator UsernameValidator { get; set; }
+    [Inject]
+    public PasswordValidator PasswordValidator { get; set; }
+    
+    protected override void OnInitialized()
+    {
+        Model = new();
+        _editContext = new EditContext(Model);
+        _editContext.OnValidationRequested += HandleValidationRequested;
+    }
+
+    private void HandleValidationRequested(object? sender, ValidationRequestedEventArgs args)
+    {
+        var isUsernameValid = UsernameValidator.IsUsernameValid(Model.Username, out _usernameError);
+        var isPasswordValid = PasswordValidator.IsPasswordValid(Model.Password, out _passwordError);
+        var arePasswordsTheSame = Model.Password == _repeatPassword;
+
+        _repeatPasswordError = "";
+        if (!arePasswordsTheSame)
+            _repeatPasswordError = "Passwords must be identical.";
+
+        if (isUsernameValid && isPasswordValid && arePasswordsTheSame)
+        {
+            Console.WriteLine("Submitted");
+        }
+    }
+}

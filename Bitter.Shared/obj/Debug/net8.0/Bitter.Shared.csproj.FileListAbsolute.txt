@@ -1,0 +1,11 @@
+/home/tradeckm/team_project/Website/Bitter/Bitter.Shared/bin/Debug/net8.0/Bitter.Shared.deps.json
+/home/tradeckm/team_project/Website/Bitter/Bitter.Shared/bin/Debug/net8.0/Bitter.Shared.dll
+/home/tradeckm/team_project/Website/Bitter/Bitter.Shared/bin/Debug/net8.0/Bitter.Shared.pdb
+/home/tradeckm/team_project/Website/Bitter/Bitter.Shared/obj/Debug/net8.0/Bitter.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/home/tradeckm/team_project/Website/Bitter/Bitter.Shared/obj/Debug/net8.0/Bitter.Shared.AssemblyInfoInputs.cache
+/home/tradeckm/team_project/Website/Bitter/Bitter.Shared/obj/Debug/net8.0/Bitter.Shared.AssemblyInfo.cs
+/home/tradeckm/team_project/Website/Bitter/Bitter.Shared/obj/Debug/net8.0/Bitter.Shared.csproj.CoreCompileInputs.cache
+/home/tradeckm/team_project/Website/Bitter/Bitter.Shared/obj/Debug/net8.0/Bitter.Shared.dll
+/home/tradeckm/team_project/Website/Bitter/Bitter.Shared/obj/Debug/net8.0/refint/Bitter.Shared.dll
+/home/tradeckm/team_project/Website/Bitter/Bitter.Shared/obj/Debug/net8.0/Bitter.Shared.pdb
+/home/tradeckm/team_project/Website/Bitter/Bitter.Shared/obj/Debug/net8.0/ref/Bitter.Shared.dll

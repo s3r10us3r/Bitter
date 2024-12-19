@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "DVTcY3Flr9sOQMm7uRMQbZBr3iqYK4Au/X+ZNIiG02w=",
+  "Source": "Bitter.ReverseProxyServer",
+  "BasePath": "_content/Bitter.ReverseProxyServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,15 @@
+/home/tradeckm/team_project/Website/Bitter/Bitter.Dal.Interfaces/bin/Debug/net8.0/Bitter.Dal.Interfaces.deps.json
+/home/tradeckm/team_project/Website/Bitter/Bitter.Dal.Interfaces/bin/Debug/net8.0/Bitter.Dal.Interfaces.dll
+/home/tradeckm/team_project/Website/Bitter/Bitter.Dal.Interfaces/bin/Debug/net8.0/Bitter.Dal.Interfaces.pdb
+/home/tradeckm/team_project/Website/Bitter/Bitter.Dal.Interfaces/bin/Debug/net8.0/Bitter.Shared.dll
+/home/tradeckm/team_project/Website/Bitter/Bitter.Dal.Interfaces/bin/Debug/net8.0/Bitter.Shared.pdb
+/home/tradeckm/team_project/Website/Bitter/Bitter.Dal.Interfaces/obj/Debug/net8.0/Bitter.Dal.Interfaces.csproj.AssemblyReference.cache
+/home/tradeckm/team_project/Website/Bitter/Bitter.Dal.Interfaces/obj/Debug/net8.0/Bitter.Dal.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+/home/tradeckm/team_project/Website/Bitter/Bitter.Dal.Interfaces/obj/Debug/net8.0/Bitter.Dal.Interfaces.AssemblyInfoInputs.cache
+/home/tradeckm/team_project/Website/Bitter/Bitter.Dal.Interfaces/obj/Debug/net8.0/Bitter.Dal.Interfaces.AssemblyInfo.cs
+/home/tradeckm/team_project/Website/Bitter/Bitter.Dal.Interfaces/obj/Debug/net8.0/Bitter.Dal.Interfaces.csproj.CoreCompileInputs.cache
+/home/tradeckm/team_project/Website/Bitter/Bitter.Dal.Interfaces/obj/Debug/net8.0/Bitter.D.88088861.Up2Date
+/home/tradeckm/team_project/Website/Bitter/Bitter.Dal.Interfaces/obj/Debug/net8.0/Bitter.Dal.Interfaces.dll
+/home/tradeckm/team_project/Website/Bitter/Bitter.Dal.Interfaces/obj/Debug/net8.0/refint/Bitter.Dal.Interfaces.dll
+/home/tradeckm/team_project/Website/Bitter/Bitter.Dal.Interfaces/obj/Debug/net8.0/Bitter.Dal.Interfaces.pdb
+/home/tradeckm/team_project/Website/Bitter/Bitter.Dal.Interfaces/obj/Debug/net8.0/ref/Bitter.Dal.Interfaces.dll
